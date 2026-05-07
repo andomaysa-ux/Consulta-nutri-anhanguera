@@ -799,7 +799,7 @@
             <option>Outro</option>
           </select>
         </div>
-        <<div class="form-group">
+        <div class="form-group">
   <label class="form-label" for="turno">Horário de preferência</label>
   
   <select id="turno" class="form-control">
