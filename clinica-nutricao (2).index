@@ -803,7 +803,7 @@
           <label class="form-label" for="turno">Turno de preferência</label>
           <select id="turno" class="form-control">
             <option value="" disabled selected>Qual período funciona melhor?</option>
-            <option>Manhã</option>
+
             <option>Tarde</option>
             <option>Qualquer horário</option>
           </select>
