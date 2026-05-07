@@ -799,15 +799,23 @@
             <option>Outro</option>
           </select>
         </div>
-        <div class="form-group">
-          <label class="form-label" for="turno">Turno de preferência</label>
-          <select id="turno" class="form-control">
-            <option value="" disabled selected>Qual período funciona melhor?</option>
-
-            <option>Tarde</option>
-            <option>Qualquer horário</option>
-          </select>
-        </div>
+        <<div class="form-group">
+  <label class="form-label" for="turno">Horário de preferência</label>
+  
+  <select id="turno" class="form-control">
+    <option value="" disabled selected>Selecione um horário</option>
+    
+    <option>16:00</option>
+    <option>16:30</option>
+    <option>17:00</option>
+    <option>17:30</option>
+    <option>18:00</option>
+    <option>18:30</option>
+    <option>19:00</option>
+    <option>19:30</option>
+    <option>20:00</option>
+  </select>
+</div>
         <div class="form-group">
           <label class="form-label" for="obs">Algo que devemos saber? (opcional)</label>
           <textarea id="obs" class="form-control" rows="3" placeholder="Alergias, condições de saúde, dúvidas..." style="resize:vertical; min-height:80px;"></textarea>
